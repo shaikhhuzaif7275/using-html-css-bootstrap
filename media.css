@@ -1,0 +1,1417 @@
+
+/* =====================================================
+   TABLET RESPONSIVE - 1200px
+===================================================== */
+
+@media (max-width: 1200px) {
+
+    /* HERO */
+
+    .hero-section {
+        height: 650px;
+    }
+
+    .hero-content p {
+        font-size: 45px;
+    }
+
+    .main-navbar .nav-link {
+        font-size: 12px;
+        padding: 9px 7px;
+    }
+
+    .main-navbar .navbar-nav {
+        gap: 2px;
+    }
+
+    /* FEATURES */
+
+    .feature-content {
+        padding: 18px 12px;
+    }
+
+    .feature-content h5 {
+        font-size: 15px;
+    }
+
+    /* SERVICES */
+
+    .services-section {
+        height: auto;
+        min-height: 650px;
+        overflow-x: hidden;
+    }
+
+    /* VALUES */
+
+    .section-title,
+    .section-subtitle,
+    .values-accordion {
+        margin-left: 50px;
+    }
+
+    .stat-card {
+        width: 100%;
+    }
+
+    .stats-grid {
+        gap: 25px;
+    }
+
+    /* EVENTS */
+
+    .events-left {
+        padding-left: 4%;
+        padding-right: 20px;
+    }
+
+    .events-right {
+        padding-left: 30px;
+    }
+
+    /* FOOTER */
+
+    .website-language {
+        margin-left: 0;
+        justify-content: flex-end;
+    }
+
+    .website-language img {
+        margin-left: 15px;
+    }
+
+}
+
+
+/* =====================================================
+   TABLET RESPONSIVE - 992px
+===================================================== */
+
+@media (max-width: 991px) {
+
+    /* HERO SECTION */
+
+    .hero-section {
+        height: 600px;
+    }
+
+    .top-bar {
+        position: relative;
+        padding: 12px 0;
+    }
+
+    .top-bar .container > .d-flex {
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .contact-info {
+        flex-wrap: wrap;
+        gap: 10px 20px;
+    }
+
+    .contact-info a {
+        font-size: 12px;
+    }
+
+    .social-top {
+        gap: 10px;
+    }
+
+    .contact-btn {
+        width: 85px;
+        height: 30px;
+        font-size: 12px;
+    }
+
+    /* NAVBAR */
+
+    .main-navbar {
+        top: 75px;
+    }
+
+    .main-navbar .container {
+        position: relative;
+    }
+
+    .navbar-toggler {
+        margin-left: auto;
+    }
+
+    .main-navbar .navbar-collapse {
+        background: rgba(37, 37, 37, 0.97);
+        padding: 15px;
+        margin-top: 10px;
+        border-radius: 5px;
+    }
+
+    .main-navbar .navbar-nav {
+        align-items: stretch !important;
+        gap: 5px;
+    }
+
+    .main-navbar .nav-link {
+        font-size: 13px;
+        padding: 10px 15px;
+    }
+
+    .main-navbar .nav-link.active {
+        background: transparent;
+        color: #ffcf32;
+    }
+
+    .nav-search {
+        border-left: none;
+        margin-left: 0;
+    }
+
+    /* HERO CONTENT */
+
+    .hero-content {
+        top: 58%;
+        padding: 0 20px;
+    }
+
+    .hero-content p {
+        font-size: 38px;
+    }
+
+    .hero-content h1 {
+        font-size: 34px;
+    }
+
+    /* FEATURES */
+
+    .features-section {
+        padding: 65px 0;
+    }
+
+    .feature-card img {
+        height: 150px;
+    }
+
+    .feature-content h5 {
+        font-size: 16px;
+    }
+
+    .feature-content p {
+        font-size: 12px;
+    }
+
+    /* BRT SECTION */
+
+    .brt-section {
+        min-height: 450px;
+        padding: 50px 0;
+        background-position: center;
+    }
+
+    .brt-box {
+        width: 380px;
+        max-width: 100%;
+    }
+
+    /* INTRODUCTION */
+
+    .intro-section {
+        padding: 70px 0;
+    }
+
+    .intro-section h6 {
+        font-size: 27px;
+    }
+
+    .intro-section h3 {
+        font-size: 25px;
+    }
+
+    /* SERVICES */
+
+    .services-section {
+        height: auto;
+        min-height: auto;
+        padding: 70px 0;
+    }
+
+    .services-section h3 {
+        font-size: 27px;
+        margin-bottom: 30px;
+    }
+
+    .services-section h2 {
+        font-size: 28px;
+    }
+
+    .services-section p {
+        font-size: 15px;
+    }
+
+    /* NEWS */
+
+    .news-section {
+        padding: 70px 0;
+    }
+
+    .section-heading h2 {
+        font-size: 35px;
+    }
+
+    .section-heading h2 span {
+        font-size: 35px;
+    }
+
+    .section-heading p {
+        font-size: 19px;
+        line-height: 1.5;
+    }
+
+    .engagement-bar {
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+
+    /* EVENTS */
+
+    .events-section {
+        min-height: auto;
+    }
+
+    .events-left h2 {
+        font-size: 27px;
+        line-height: 1.4;
+    }
+
+    .events-left p {
+        font-size: 15px;
+        margin-top: 25px;
+    }
+
+    .events-cards {
+        gap: 15px;
+    }
+
+    .event-card {
+        padding: 20px;
+    }
+
+    .event-card h3 {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    /* VALUES */
+
+    .values-section {
+        height: auto;
+        min-height: auto;
+        padding: 60px 0;
+    }
+
+    .values-section .row {
+        row-gap: 60px;
+    }
+
+    .section-title,
+    .section-subtitle,
+    .values-accordion {
+        margin-left: 0;
+    }
+
+    .section-title {
+        font-size: 35px;
+    }
+
+    .section-subtitle {
+        margin-bottom: 35px;
+    }
+
+    .value-content {
+        padding: 25px 20px 0;
+    }
+
+    .value-content p {
+        font-size: 17px;
+    }
+
+    .mobility-right {
+        padding-left: 12px;
+    }
+
+    .right-head {
+        font-size: 32px;
+    }
+
+    .stats-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 20px;
+    }
+
+    .stat-card {
+        width: 100%;
+        min-width: 0;
+        margin-top: 10px;
+    }
+
+    .stat-card h3 {
+        font-size: 48px;
+    }
+
+    .stat-card p {
+        font-size: 16px;
+    }
+
+    /* NEWSROOM */
+
+    .newsroom-section h5,
+    .newsunder {
+        margin-left: 20px;
+    }
+
+    .video-box {
+        height: 400px;
+    }
+
+    /* GALLERY */
+
+    .gallery-section img {
+        height: 150px;
+    }
+
+    /* FUNDING */
+
+    .funding-section {
+        padding: 70px 0;
+    }
+
+    .funding-logos img {
+        max-width: 100%;
+    }
+
+    /* IMAGE SECTION */
+
+    .imagesection {
+        height: auto;
+    }
+
+    .imagesection img {
+        height: 220px;
+    }
+
+    /* DISCOVER */
+
+    .discover-section h2 {
+        font-size: 52px;
+    }
+
+    .discover-section h3 {
+        font-size: 43px;
+        line-height: 1.2;
+    }
+
+    /* NEWSLETTER */
+
+    .newsletter-section {
+        height: auto;
+        padding: 25px 0;
+    }
+
+    .newsletter-section h4 {
+        font-size: 22px;
+    }
+
+    .newsletter-form {
+        margin-top: 15px;
+    }
+
+    /* FOOTER */
+
+    .footer-section {
+        padding-top: 35px;
+    }
+
+    .footer-about p {
+        font-size: 14px;
+    }
+
+    .website-language {
+        margin-left: 0;
+        justify-content: flex-start;
+    }
+
+    .website-language img {
+        margin-left: 10px;
+    }
+
+    .bottom-links {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px 20px;
+    }
+
+}
+
+
+/* =====================================================
+   MOBILE RESPONSIVE - 767px
+===================================================== */
+
+@media (max-width: 767px) {
+
+    /* HERO SECTION */
+
+    .hero-section {
+        height: 520px;
+        background-position: center;
+    }
+
+    /* TOP BAR */
+
+    .top-bar {
+        padding: 10px 0;
+    }
+
+    .top-bar .container > .d-flex {
+        flex-direction: column;
+        align-items: flex-start !important;
+    }
+
+    .contact-info {
+        flex-direction: column;
+        gap: 7px;
+    }
+
+    .contact-info a {
+        font-size: 11px;
+    }
+
+    .contact-info i {
+        font-size: 12px;
+    }
+
+    .social-top {
+        flex-wrap: wrap;
+        font-size: 11px;
+    }
+
+    .contact-btn {
+        width: 75px;
+        height: 28px;
+        font-size: 10px;
+    }
+
+    /* NAVBAR */
+
+    .main-navbar {
+        top: 110px;
+    }
+
+    .navbar-toggler {
+        padding: 5px 9px;
+    }
+
+    .main-navbar .navbar-collapse {
+        padding: 10px;
+    }
+
+    .main-navbar .nav-link {
+        font-size: 12px;
+    }
+
+    /* HERO CONTENT */
+
+    .hero-content {
+        top: 60%;
+        padding: 0 15px;
+    }
+
+    .hero-content p {
+        font-size: 28px;
+        line-height: 1.3;
+        letter-spacing: 0;
+    }
+
+    .hero-content h1 {
+        font-size: 28px;
+        line-height: 1.3;
+    }
+
+    .hero-content h6 {
+        font-size: 14px;
+    }
+
+    /* TICKER */
+
+    .ticker {
+        height: 38px;
+    }
+
+    .ticker-content {
+        font-size: 12px;
+    }
+
+    .ssi {
+        padding: 20px 15px 0;
+    }
+
+    .ssi img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* FEATURES */
+
+    .features-section {
+        padding: 45px 0;
+    }
+
+    .feature-card {
+        height: auto;
+    }
+
+    .feature-card img {
+        height: 180px;
+    }
+
+    .feature-content {
+        padding: 20px 15px;
+    }
+
+    .feature-content h5 {
+        font-size: 17px;
+    }
+
+    .feature-content p {
+        font-size: 12px;
+        line-height: 1.7;
+    }
+
+    /* BRT SECTION */
+
+    .brt-section {
+        min-height: 380px;
+        padding: 40px 0;
+    }
+
+    .brt-box {
+        width: 100%;
+        padding: 30px 18px;
+    }
+
+    .brt-box h2 {
+        font-size: 30px;
+    }
+
+    .brt-box p {
+        font-size: 13px;
+        line-height: 1.7;
+    }
+
+    .design-wave img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* INTRODUCTION */
+
+    .intro-section {
+        padding: 55px 0;
+    }
+
+    .intro-section img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .intro-section h6 {
+        font-size: 21px;
+        line-height: 1.5;
+    }
+
+    .intro-section h3 {
+        font-size: 21px;
+        line-height: 1.5;
+    }
+
+    /* SERVICES */
+
+    .services-section {
+        height: auto;
+        min-height: auto;
+        padding: 55px 0;
+        background-position: center;
+    }
+
+    .services-section .row {
+        row-gap: 35px;
+    }
+
+    .services-section h3 {
+        font-size: 25px;
+        margin-bottom: 25px;
+    }
+
+    .services-section h2 {
+        font-size: 27px;
+    }
+
+    .services-section p {
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+    .services-section .col-6 {
+        width: 50%;
+    }
+
+    /* NEWS */
+
+    .news-section {
+        padding: 55px 0;
+    }
+
+    .section-heading {
+        margin-bottom: 35px;
+    }
+
+    .section-heading img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .section-heading h2 {
+        font-size: 32px;
+    }
+
+    .section-heading h2 span {
+        font-size: 32px;
+    }
+
+    .section-heading p {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    .news-card {
+        height: auto;
+    }
+
+    .news-card img {
+        height: 200px;
+    }
+
+    .news-card p {
+        font-size: 13px;
+        line-height: 1.7;
+    }
+
+    .engagement-bar {
+        gap: 12px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .engagement-item {
+        gap: 5px;
+        font-size: 10px;
+    }
+
+    .engagement-item i {
+        font-size: 12px;
+    }
+
+    .outline-btn {
+        padding: 10px 25px;
+    }
+
+    /* EVENTS */
+
+    .events-section {
+        flex-direction: column;
+        padding: 35px 20px;
+        gap: 25px;
+    }
+
+    .events-left {
+        width: 100%;
+        padding: 0;
+    }
+
+    .events-left h2 {
+        font-size: 25px;
+        line-height: 1.4;
+        margin-bottom: 15px;
+    }
+
+    .events-left p {
+        font-size: 14px;
+        line-height: 1.7;
+        margin-top: 15px;
+    }
+
+    .events-divider {
+        width: 100%;
+        height: 7px;
+    }
+
+    .events-right {
+        width: 100%;
+        padding: 0;
+    }
+
+    .events-cards {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .event-card {
+        min-height: 240px;
+        padding: 22px;
+        border-radius: 20px;
+    }
+
+    .event-card h3 {
+        font-size: 17px;
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+
+    .event-details p {
+        font-size: 13px;
+        line-height: 1.6;
+    }
+
+    .event-footer {
+        font-size: 12px;
+        flex-wrap: wrap;
+    }
+
+    .view-all {
+        margin-left: 0;
+        margin-top: 25px;
+    }
+
+    /* VALUES */
+
+    .values-section {
+        height: auto;
+        min-height: auto;
+        padding: 45px 15px;
+    }
+
+    .values-section .row {
+        row-gap: 45px;
+    }
+
+    .section-title {
+        font-size: 32px;
+        margin-left: 0;
+    }
+
+    .section-subtitle {
+        font-size: 15px;
+        margin-left: 0;
+        margin-bottom: 30px;
+        line-height: 1.5;
+    }
+
+    .values-accordion {
+        margin-left: 0;
+    }
+
+    .value-item {
+        margin-bottom: 20px;
+    }
+
+    .value-button {
+        height: 50px;
+        gap: 18px;
+        padding: 0 15px;
+        font-size: 17px;
+    }
+
+    .accordion-icon {
+        font-size: 25px;
+    }
+
+    .value-content {
+        padding: 20px 12px 0;
+    }
+
+    .value-content p {
+        font-size: 15px;
+        line-height: 1.7;
+    }
+
+    /* MOBILITY */
+
+    .mobility-right {
+        padding-left: 0;
+    }
+
+    .right-head {
+        font-size: 28px;
+        line-height: 1.3;
+    }
+
+    .section-subtitle1 {
+        font-size: 15px;
+        line-height: 1.5;
+    }
+
+    .stats-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 15px;
+    }
+
+    .stat-card {
+        width: 100%;
+        min-width: 0;
+        min-height: 150px;
+        margin-top: 10px;
+        padding: 15px 5px;
+    }
+
+    .walking-icon {
+        font-size: 55px;
+    }
+
+    .trav-icon {
+        font-size: 43px;
+    }
+
+    .whee-icon {
+        font-size: 50px;
+    }
+
+    .cycl-icon {
+        font-size: 50px;
+    }
+
+    .stat-card h3 {
+        font-size: 40px;
+    }
+
+    .stat-card p {
+        font-size: 13px;
+        line-height: 1.4;
+    }
+
+    /* NEWSROOM */
+
+    .newsroom-section {
+        padding: 30px 0;
+    }
+
+    .newsroom-section h5 {
+        font-size: 21px;
+        margin-left: 15px;
+    }
+
+    .newsunder {
+        margin-left: 15px;
+    }
+
+    .video-box {
+        height: 280px;
+    }
+
+    .video-box i {
+        font-size: 35px;
+    }
+
+    /* GALLERY */
+
+    .gallery-section img {
+        height: 150px;
+    }
+
+    .gallery-section h5 {
+        font-size: 10px;
+        line-height: 1.5;
+    }
+
+    .gallery-section p {
+        font-size: 12px;
+    }
+
+    /* FUNDING */
+
+    .funding-section {
+        padding: 55px 0;
+    }
+
+    .funding-section h2 {
+        font-size: 32px;
+    }
+
+    .funding-section p {
+        font-size: 14px;
+        line-height: 1.8;
+        padding: 0 10px;
+    }
+
+    .funding-logos {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .funding-logos img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* IMAGE SECTION */
+
+    .imagesection {
+        width: 100%;
+        height: auto;
+    }
+
+    .imagesection .container-fluid {
+        flex-wrap: wrap;
+        padding: 0;
+    }
+
+    .imagesection .container-fluid > div {
+        width: 50%;
+    }
+
+    .imagesection img {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+        display: block;
+    }
+
+    /* DISCOVER */
+
+    .discover-section {
+        padding: 45px 15px;
+    }
+
+    .discover-section img {
+        max-width: 150px;
+        height: auto;
+    }
+
+    .discover-section h2 {
+        font-size: 42px;
+    }
+
+    .discover-section h3 {
+        font-size: 32px;
+        line-height: 1.3;
+    }
+
+    .discover-section .btn {
+        font-size: 13px;
+    }
+
+    /* NEWSLETTER */
+
+    .newsletter-section {
+        height: auto;
+        padding: 30px 0;
+        text-align: center;
+    }
+
+    .newsletter-section h4 {
+        font-size: 21px;
+    }
+
+    .newsletter-section p {
+        font-size: 12px;
+        line-height: 1.6;
+    }
+
+    .newsletter-form {
+        margin-top: 20px;
+    }
+
+    .newsletter-form .form-control {
+        height: 45px;
+        font-size: 11px;
+    }
+
+    .subscribe-btn {
+        font-size: 10px;
+        padding: 0 10px;
+    }
+
+    /* FOOTER */
+
+    .footer-section {
+        padding-top: 35px;
+    }
+
+    .footer-about {
+        padding-right: 0;
+    }
+
+    .footer-logo {
+        max-width: 145px;
+        height: auto;
+    }
+
+    .footer-about p {
+        font-size: 13px;
+        line-height: 1.8;
+    }
+
+    .footer-column h5 {
+        font-size: 17px;
+    }
+
+    .footer-column h6 {
+        font-size: 14px;
+    }
+
+    .footer-column p {
+        font-size: 13px;
+        line-height: 1.7;
+    }
+
+    .footer-links a {
+        font-size: 13px;
+    }
+
+    .footer-social {
+        margin-top: 15px;
+    }
+
+    /* WEBSITE LANGUAGE */
+
+    .website-language {
+        margin-left: 0;
+        padding: 20px 0;
+        justify-content: flex-start;
+        gap: 8px;
+        font-size: 12px;
+    }
+
+    .website-language i {
+        font-size: 20px;
+    }
+
+    .website-language img {
+        width: 25px;
+        height: auto;
+        margin-left: 5px;
+    }
+
+    /* COPYRIGHT */
+
+    .copyright-section {
+        padding: 15px 0;
+    }
+
+    .copyright-section p {
+        font-size: 11px;
+        line-height: 1.7;
+        letter-spacing: 0;
+    }
+
+    .bottom-links {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 5px 15px;
+    }
+
+    .bottom-links a {
+        font-size: 11px;
+        line-height: 1.8;
+    }
+
+}
+
+
+/* =====================================================
+   SMALL MOBILE - 480px
+===================================================== */
+
+@media (max-width: 480px) {
+
+    /* HERO */
+
+    .hero-section {
+        height: 460px;
+    }
+
+    .hero-content p {
+        font-size: 23px;
+    }
+
+    .hero-content h1 {
+        font-size: 24px;
+    }
+
+    .hero-content h6 {
+        font-size: 12px;
+    }
+
+    /* FEATURES */
+
+    .feature-card img {
+        height: 150px;
+    }
+
+    .feature-content h5 {
+        font-size: 15px;
+    }
+
+    /* BRT */
+
+    .brt-box h2 {
+        font-size: 26px;
+    }
+
+    .brt-box p {
+        font-size: 12px;
+    }
+
+    /* INTRO */
+
+    .intro-section h6 {
+        font-size: 18px;
+    }
+
+    .intro-section h3 {
+        font-size: 18px;
+    }
+
+    /* SERVICES */
+
+    .services-section h3 {
+        font-size: 22px;
+    }
+
+    .services-section h2 {
+        font-size: 23px;
+    }
+
+    .services-section p {
+        font-size: 12px;
+    }
+
+    /* NEWS */
+
+    .section-heading h2,
+    .section-heading h2 span {
+        font-size: 28px;
+    }
+
+    .section-heading p {
+        font-size: 13px;
+    }
+
+    .news-card img {
+        height: 170px;
+    }
+
+    .engagement-bar {
+        gap: 8px;
+    }
+
+    .engagement-item {
+        font-size: 9px;
+    }
+
+    /* EVENTS */
+
+    .events-section {
+        padding: 30px 15px;
+    }
+
+    .events-left h2 {
+        font-size: 22px;
+    }
+
+    .event-card {
+        padding: 18px;
+        min-height: 230px;
+    }
+
+    .event-card h3 {
+        font-size: 15px;
+    }
+
+    .event-footer {
+        font-size: 10px;
+    }
+
+    /* VALUES */
+
+    .section-title {
+        font-size: 28px;
+    }
+
+    .value-button {
+        font-size: 15px;
+        padding: 0 12px;
+    }
+
+    .value-content p {
+        font-size: 13px;
+    }
+
+    /* MOBILITY */
+
+    .right-head {
+        font-size: 24px;
+    }
+
+    .stats-grid {
+        gap: 10px;
+    }
+
+    .stat-card {
+        min-height: 130px;
+    }
+
+    .stat-card h3 {
+        font-size: 32px;
+    }
+
+    .stat-card p {
+        font-size: 11px;
+    }
+
+    .walking-icon {
+        font-size: 45px;
+    }
+
+    .trav-icon {
+        font-size: 38px;
+    }
+
+    .whee-icon,
+    .cycl-icon {
+        font-size: 42px;
+    }
+
+    /* VIDEO */
+
+    .video-box {
+        height: 220px;
+    }
+
+    /* GALLERY */
+
+    .gallery-section img {
+        height: 120px;
+    }
+
+    .gallery-section h5 {
+        font-size: 9px;
+    }
+
+    .gallery-section p {
+        font-size: 11px;
+    }
+
+    /* IMAGE SECTION */
+
+    .imagesection img {
+        height: 115px;
+    }
+
+    /* DISCOVER */
+
+    .discover-section h2 {
+        font-size: 35px;
+    }
+
+    .discover-section h3 {
+        font-size: 25px;
+    }
+
+    /* NEWSLETTER */
+
+    .newsletter-section h4 {
+        font-size: 19px;
+    }
+
+    .newsletter-section p {
+        font-size: 11px;
+    }
+
+    /* FOOTER */
+
+    .website-language {
+        font-size: 11px;
+    }
+
+    .bottom-links a {
+        font-size: 10px;
+    }
+
+}
+
+
+/* =====================================================
+   EXTRA SMALL MOBILE - 360px
+===================================================== */
+
+@media (max-width: 360px) {
+
+    .hero-section {
+        height: 420px;
+    }
+
+    .contact-info a {
+        font-size: 10px;
+    }
+
+    .hero-content p {
+        font-size: 20px;
+    }
+
+    .hero-content h1 {
+        font-size: 21px;
+    }
+
+    .hero-content h6 {
+        font-size: 11px;
+    }
+
+    .services-section .col-6 {
+        width: 100%;
+    }
+
+    .engagement-bar {
+        gap: 6px;
+    }
+
+    .engagement-item {
+        font-size: 8px;
+        gap: 3px;
+    }
+
+    .event-card h3 {
+        font-size: 14px;
+    }
+
+    .stat-card h3 {
+        font-size: 28px;
+    }
+
+    .stat-card p {
+        font-size: 10px;
+    }
+
+    .discover-section h3 {
+        font-size: 22px;
+    }
+
+    .newsletter-form .form-control {
+        padding: 6px;
+        font-size: 10px;
+    }
+
+    .subscribe-btn {
+        padding: 0 7px;
+        font-size: 9px;
+    }
+
+}
